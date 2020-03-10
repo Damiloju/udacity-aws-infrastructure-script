@@ -52,7 +52,7 @@ Resources:
         - Key: Name
           Value: !Ref EnvironmentName
 
-  InternetGateWayAttachment:
+  InternetGatewayAttachment:
     Type: AWS::EC2::VPCGatewayAttachment
     Properties:
       InternetGatewayId: !Ref InternetGateway
